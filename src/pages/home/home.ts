@@ -12,7 +12,7 @@ export class HomePage {
 
   }
 
-  openSlides(){
+  public openSlides(){
     this.navCtrl.push(SlidesPage);
   }
 
