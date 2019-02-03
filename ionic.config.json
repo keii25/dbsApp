@@ -1,5 +1,7 @@
 {
   "name": "dbsapp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
