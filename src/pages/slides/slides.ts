@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+
+import { UniversesPage } from '../universes/universes';
+
 /**
  * Generated class for the SlidesPage page.
  *
@@ -16,6 +19,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class SlidesPage {  
   
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  openUniverses(){
+    this.navCtrl.push(UniversesPage);
   }
 
   ionViewDidLoad() {
