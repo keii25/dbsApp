@@ -16,13 +16,14 @@ import { UniversesPage } from '../universes/universes';
   selector: 'page-slides',
   templateUrl: 'slides.html',
 })
-export class SlidesPage {  
+export class SlidesPage {
   
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   openUniverses(){
     this.navCtrl.push(UniversesPage);
+      
   }
 
   ionViewDidLoad() {
